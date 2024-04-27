@@ -11,8 +11,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar: 
-    path: ../isar
+  isar:
+    git:
+      url: https://github.com/zweidenker/isar
+      ref: main
+      path: packages/isar
 
 flutter:
   plugin:
